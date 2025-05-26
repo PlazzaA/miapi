@@ -83,7 +83,7 @@ def retrain():  # Rutarlo al endpoint '/api/v1/retrain/', metodo GET
 @app.route("/webhook", methods=["POST"])
 def webhook():
     # Ruta al repositorio donde se realizará el pull
-    path_repo = "/home/Plazza/app-github/miapi"
+    path_repo = "/home/Plazza/app-github"
     servidor_web = "/var/www/plazza_pythonanywhere_com_wsgi.py"
 
     # Comprueba si la solicitud POST contiene datos JSON
